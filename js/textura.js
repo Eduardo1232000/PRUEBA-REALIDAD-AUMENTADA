@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Crear malla facial
     const faceMesh = mindarThree.addFaceMesh();
-    const texture = new THREE.TextureLoader().load('assets/textures/ejemplo-textura.png');
+    const texture = new THREE.TextureLoader().load('./img/cara.png');
     
     faceMesh.material.map = texture;
     faceMesh.material.transparent = true;
