@@ -37,9 +37,12 @@ body {
 }
 
 #container {
-    width: 100%;
-    height: 90%;
-    position: absolute;
-    top: 10%;
-    overflow: hidden;
+    width: 100vw;           /* 100% del ancho del viewport */
+    height: 100vh;          /* 100% del alto del viewport */
+    position: fixed;        /* Fijo para evitar desplazamiento */
+    top: 0;
+    left: 0;
+    overflow: hidden;       /* Previene scroll */
+    z-index: -1;           /* Opcional: para que quede detrás de otros elementos */
+    background: #000;       /* Fondo negro para áreas no ocupadas por la cámara */
 }
