@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/",
+            "mindar-face-three": "https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-face-three.prod.js"
+          }
+        }
+    </script>
+
+    <link rel="stylesheet" href="css/textura.css">
+</head>
+
+<body>
+    <div class="example-container">
+        <div>
+            <button class="boton" id="boton_empezar">Start</button>
+            <button class="boton" id="boton_stop">Stop</button>
+            <button class="boton" id="boton_cambiar_camara">Switch Camera</button>
+        </div>
+        <div id="container">
+        </div>
+    </div>
+    <script src="js/animacion_y_navegacion.js"></script>
+    <script type="module" src="js/textura.js"></script>
+</body>
+
+</html>
