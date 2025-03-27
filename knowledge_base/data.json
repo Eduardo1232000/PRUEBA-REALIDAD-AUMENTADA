@@ -2,6 +2,7 @@
     {
         "index":0,
         "nombre_lugar": "Gran Muralla China",
+        "ubicacion_deteccion": "./deteccion/1.chichen",
         "multimedia": [
             [
                 {
@@ -45,6 +46,7 @@
     {
         "index":1,
         "nombre_lugar": "Machu Picchu",
+        "ubicacion_deteccion": "./deteccion/1.chichen",
         "multimedia": [
             [
                 {
@@ -67,6 +69,7 @@
     {
         "index":2,
         "nombre_lugar": "Petra",
+        "ubicacion_deteccion": "./deteccion/1.chichen",
         "multimedia": [
             [
                 {
@@ -126,6 +129,7 @@
     {
         "index":3,
         "nombre_lugar": "Gran Muralla China",
+        "ubicacion_deteccion": "./deteccion/1.chichen",
         "multimedia": [
             [
                 {
@@ -189,6 +193,7 @@
     {
         "index":4,
         "nombre_lugar": "Coliseo Romano",
+        "ubicacion_deteccion": "./deteccion/1.chichen",
         "multimedia": [
             [
                 {
@@ -252,6 +257,7 @@
     {
         "index":5,
         "nombre_lugar": "Taj Mahal",
+        "ubicacion_deteccion": "./deteccion/1.chichen",
         "multimedia": [
             [
                 {
@@ -327,6 +333,7 @@
     {
         "index":6,
         "nombre_lugar": "Cristo Redentor",
+        "ubicacion_deteccion": "./deteccion/1.chichen",
         "multimedia": [
             [
                 {
